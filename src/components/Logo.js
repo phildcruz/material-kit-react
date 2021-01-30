@@ -1,12 +1,9 @@
 import React from 'react';
+import { Icon } from '@material-ui/core';
 
 const Logo = (props) => {
   return (
-    <img
-      alt="Logo"
-      src="/static/logo.svg"
-      {...props}
-    />
+    <Icon style={{ fontSize: 30, color: 'white' }}>home</Icon>
   );
 };
 
